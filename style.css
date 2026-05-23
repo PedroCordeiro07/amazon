@@ -143,4 +143,141 @@
     text-decoration: underline;
 }
 
+footer {
+    margin-top: 3rem;
+    background-color: #232F3E;
+    color: #CCCCCC;
+    font-size: 13px;
+}
 
+.footer-top {
+    background-color: #37475A;
+    text-align: center;
+    padding: 14px;
+}
+
+.footer-top a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-top a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+
+.footer-col h6 {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-col {
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: white;
+    font-size: 13px;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-middle {
+    border-top: 1px solid #3A4553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 24px;
+    background-color: #232F3E;
+}
+
+.footer-logo {
+    height: 35px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-country {
+    background-color: transparent;
+    border: 1px solid #888;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer-country:hover {
+    border-color: white;
+}
+
+.footer-legal {
+    background-color: #131A22;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    font-size: 12px;
+}
+
+.footer-legal-links {
+    margin-bottom: 6px;
+}
+
+.footer-legal-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 4px;
+    font-size: 12px;
+}
+
+.footer-legal-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-legal p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.footer-info {
+    background-color: #131A22;
+    text-align: center;
+    padding: 16px 40px 24px;
+    color: #999999;
+    font-size: 12px;
+    
+}
+
+.footer-info p {
+    margin: auto 0;
+    margin-top: 2rem;
+}
+
+.footer-info strong {
+    color: #CCCCCC;
+}
